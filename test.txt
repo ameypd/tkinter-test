@@ -1,0 +1,43 @@
+time TIME_A: 0.000665 sec. 
+Current CPU frequency: 3182.2117500000004 MHz
+#: 1
+.data: 1
+.text: 1
+.globl: 1
+.align: 1
+main:: 1
+addiu: 11
+sw: 48
+move: 24
+fnc_main_code:: 1
+li: 9
+nop: 76
+lw: 41
+ldc1: 3
+cvt.s.d: 1
+swc1: 1
+while1_begin:: 1
+while1_condition:: 1
+slt: 1
+beq: 1
+$L1:: 1
+bne: 1
+j: 4
+$L2:: 1
+addu: 2
+lwc1: 1
+cvt.d.s: 1
+sdc1: 2
+mul.d: 1
+mtc1: 2
+trunc.w.s: 1
+mfc1: 2
+div: 1
+mflo: 1
+cvt.s.w: 1
+while1_end:: 1
+fnc_main_return:: 1
+
+Total Cycles:  479
+0.0003
+Execution time is 0.1437 microsecond
